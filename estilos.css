@@ -27,13 +27,43 @@ nav{
     width: 100%;
     }
 
-   nav, lu, li{
+   nav lu li{
        margin: 10px;
        float: left;
        color: white;
    }
 
-  nav, lu, li, a{
+  nav lu li a{
        color: white;
        
    }
+    .nuevafuncion{
+    clear: both;
+}
+
+#contenido{
+    width: 80%;
+    min-height: 500px;
+    float: left;
+    text-align: center;
+    background: green;
+}
+
+aside{
+    height: 500px;
+   float: left;
+   width: 20%;
+   line-height: 100px;
+   text-align: center;
+   background: orange;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    background: black;
+}
